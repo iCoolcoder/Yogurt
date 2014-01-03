@@ -5,7 +5,19 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "VideoConvert", "VideoConver
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VOD", "VOD\VOD.csproj", "{605673E0-F98E-42BB-B010-276F8A781B8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VODUnitTest", "VODUnitTest\VODUnitTest.csproj", "{A2974FE5-440F-402B-B6E5-D4D15FAD8762}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFA1ADFA-9622-4504-9F97-0077DAC680A3}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		VideoConvert.vsmdi = VideoConvert.vsmdi
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = VideoConvert.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -35,6 +47,16 @@ Global
 		{605673E0-F98E-42BB-B010-276F8A781B8E}.Release|Mixed Platforms.Build.0 = Release|x86
 		{605673E0-F98E-42BB-B010-276F8A781B8E}.Release|x86.ActiveCfg = Release|x86
 		{605673E0-F98E-42BB-B010-276F8A781B8E}.Release|x86.Build.0 = Release|x86
+		{A2974FE5-440F-402B-B6E5-D4D15FAD8762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2974FE5-440F-402B-B6E5-D4D15FAD8762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2974FE5-440F-402B-B6E5-D4D15FAD8762}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A2974FE5-440F-402B-B6E5-D4D15FAD8762}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A2974FE5-440F-402B-B6E5-D4D15FAD8762}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A2974FE5-440F-402B-B6E5-D4D15FAD8762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2974FE5-440F-402B-B6E5-D4D15FAD8762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2974FE5-440F-402B-B6E5-D4D15FAD8762}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A2974FE5-440F-402B-B6E5-D4D15FAD8762}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A2974FE5-440F-402B-B6E5-D4D15FAD8762}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="IBM437"?>
+<VodMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AssetId>11111</AssetId>
+  <AssetName>test asset</AssetName>
+  <ProviderId>mine</ProviderId>
+  <Description>This is a test metadata</Description>
+</VodMetadata>
